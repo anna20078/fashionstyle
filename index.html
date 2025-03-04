@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна - Блог про моду</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Загальні стилі */
+        body {
+            font-family: 'Playfair Display', serif;
+            background-color: #fbeee6;
+            color: #5a3e36;
+            margin: 0;
+            padding: 0;
+            transition: all 0.3s ease-in-out;
+        }
+        header {
+            background-color: #f8d7da;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeInDown 1s;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #5a3e36;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #d63384;
+        }
+        main {
+            text-align: center;
+            padding: 50px;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s;
+        }
+        .button-group {
+            margin-top: 30px;
+        }
+        .btn {
+            background-color: #d63384;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #b12a68;
+        }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо в блог про моду</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="history.html">Історія моди</a></li>
+                <li><a href="styles.html">Стилі різних часів</a></li>
+                <li><a href="modern.html">Сучасна мода</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Новий розділ з текстом -->
+        <section class="intro">
+            <h2>Ласкаво просимо у світ моди та стилю! 🌸✨</h2>
+            <p>Мода – це більше, ніж просто одяг. Це мистецтво самовираження, відображення епохи та спосіб підкреслити свою унікальність.</p>
+            <p>На нашому сайті ви дізнаєтесь про захопливу історію моди, розвиток стилів у різні часи та сучасні тренди, які формують сьогодення.</p>
+            <p>Приєднуйтесь до подорожі світом елегантності та краси! 💖</p>
+        </section>
+        <section>
+            <h2>Про що цей блог?</h2>
+            <p>Цей блог присвячений історії моди, стилям різних часів і сучасним трендам.</p>
+        </section>
+        <div class="button-group">
+            <button class="btn" onclick="window.location.href='history.html'">Історія моди</button>
+            <button class="btn" onclick="window.location.href='styles.html'">Стилі різних часів</button>
+            <button class="btn" onclick="window.location.href='modern.html'">Сучасна мода</button>
+            <button class="btn" onclick="window.location.href='contact.html'">Контакти</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Блог про моду | Овчаренко Анна</p>
+    </footer>
+</body>
+</html>

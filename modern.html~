@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сучасна мода - Блог про моду</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            background-color: #fbeee6;
+            color: #5a3e36;
+            margin: 0;
+            padding: 0;
+            transition: all 0.3s ease-in-out;
+        }
+        header {
+            background-color: #f8d7da;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeInDown 1s;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #5a3e36;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #d63384;
+        }
+        main {
+            text-align: center;
+            padding: 50px;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s;
+        }
+        footer {
+            background-color: #f8d7da;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Сучасна мода</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="history.html">Історія моди</a></li>
+                <li><a href="styles.html">Стилі різних часів</a></li>
+                <li><a href="modern.html">Сучасна мода</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Що популярно сьогодні?</h2>
+            <p>Сучасна мода поєднує мінімалізм, комфорт і індивідуальність. Екологічність і стійкість відіграють важливу роль.</p>
+        </section>
+        <h2>Minimalism (Мінімалізм)</h2>
+        <p>Простота, нейтральні кольори та чисті лінії. Основні речі гардероба — класичні штани, білі сорочки, тренчі, базові светри та мінімум аксесуарів. Цей стиль віддає перевагу якісним матеріалам та стриманим силуетам.</p>
+        <img src="images/minimalism.jpg" alt="Мода Мінімалізм">
+         </section>
+        <section>
+            <h2>Streetwear (Вуличний стиль)</h2>
+            <p>Надихнутий хіп-хопом, скейт-культурою та спортом. Включає широкі худі, оверсайз футболки, штани-карго, кросівки та логотипи відомих брендів. Цей стиль поєднує комфорт і трендовий вигляд.</p>
+            <img src="images/street.jpg" alt="Мода"Вуличного стилю">
+            
+        </section>
+        <h2>Quiet Luxury (Тихий люкс) </h2>
+            <p>Мінімалізм, але в розкішному виконанні. Головний акцент — на якість тканин, вишуканий крій та непомітні брендові речі. Виглядає дорого, але без кричущих логотипів.</p>
+            <img src="images/luxury.jpg" alt="Мода Тихий люкс">
+    </main>
+    <footer>
+        <p>&copy; 2025 Блог про моду | Овчаренко Анна</p>
+    </footer>
+</body>
+</html>
